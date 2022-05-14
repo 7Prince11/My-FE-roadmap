@@ -1,0 +1,130 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    background-color: #333;
+    @font-face {
+        font-family: 'Dosis';
+        src: url('../fonts/Dosis-Regular.ttf');
+    }
+    font-family: 'Dosis';
+    header{
+        color: white;
+        background-color: red;
+        width: 25%;
+        margin: 0 auto;
+        margin : 15px auto;
+        border-radius: 10px;
+        border: 1px solid black;
+        padding : 0 0 15px 0;
+        .circles img{
+            width: 25px;
+            height: 25px;
+                    }
+        b{ font-size: 14px;
+            font-weight: bold;
+            display:flex;
+            justify-content: center;
+            align-items: center;}
+        .circles{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width :100%;
+            flex-wrap: wrap;
+            padding : 0 5px 0 5px;
+        }
+        .name{
+                font-size : 25px;
+                font-weight: bold;
+                font-family: monospace;
+                text-align: center;
+                padding : 20px 0 20px 0;       
+                display:flex;
+                justify-content: center;
+                align-items: center;
+        }
+    }
+        main{
+        color : white;
+        display:flex;
+        justify-content: center;
+        margin: 40px 0 40px 0;
+        .container {
+             h3 {
+                    padding: 10px;
+                    margin : 10px;
+                    color : white;
+                    background-color: blue;
+                    
+                    border-radius: 10px;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+             h5 {
+                    background-color: rgb(0, 55, 73);
+                    color : white;
+                    border-radius: 10px;
+                    text-align: center;
+                    margin: 10px ;
+                    padding : 5px;
+                }
+            img{
+                width :25px;
+                position: relative;
+                top: 7px;
+                }
+                flex-wrap: wrap;
+                padding : 20px;
+                color : black;
+                background-color : white;
+                width : 1200px;
+                height : 100%;
+                border : 10px solid teal;
+                display : flex;
+                justify-content : space-around;
+                 
+                .hide , .hide_css , .hide_js , .hide_tl{ 
+                    display: none;
+                }
+
+
+                #html_text{
+                    color : black;
+                }
+            
+                .btn , .btn_css, .btn_js , .btn_tl{
+                    color : black;
+                    padding : 5px;
+                    background : none;
+                    text-align: center;
+                    cursor: pointer;
+                    margin: 10px 0 10px 0 ;
+                   border-radius : 10px;
+                   
+                }
+                h4{
+                    padding : 10px 0 10px 0;
+                }
+          
+            
+            
+        }
+       
+    }
+    footer {
+        color: white;
+        background-color: red;
+        width: 25%;
+        // height: 100%;
+        margin : 0 auto;
+        border-radius: 10px;
+        border: 1px solid black;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content : center;
+        align-items : center;        
+        
+    }
+
+}

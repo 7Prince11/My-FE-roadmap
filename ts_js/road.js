@@ -9,6 +9,12 @@ var hide_css = document.querySelector('.hide_css');
 var hide_js = document.querySelector('.hide_js');
 var hide_tl = document.querySelector('.hide_tl');
 /* Section for ()=> */
+
+btn.addEventListener('mouseover' , ()=>{
+    //  btn.style.backgroundColor = 'red';
+})
+
+
 btn.addEventListener('click', function () {
     
     if (hide_html.classList.toggle("hide")) {
@@ -16,7 +22,9 @@ btn.addEventListener('click', function () {
     }
     else
         (btn.textContent = 'Hide');
-});
+    }
+
+);
 
  
 

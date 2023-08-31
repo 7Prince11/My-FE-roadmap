@@ -78,6 +78,7 @@ body main .container {
   border: 10px solid teal;
   display: flex;
   justify-content: space-around;
+  border-radius: 20px;
 }
 body main .container h3 {
   padding: 10px;

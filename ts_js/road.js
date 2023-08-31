@@ -10,12 +10,19 @@ var hide_js = document.querySelector('.hide_js');
 var hide_tl = document.querySelector('.hide_tl');
 /* Section for ()=> */
 btn.addEventListener('click', function () {
+    
     if (hide_html.classList.toggle("hide")) {
         btn.textContent = 'Show';
     }
     else
         (btn.textContent = 'Hide');
 });
+
+ 
+
+
+
+
 btn_css.addEventListener('click', function () {
     if (hide_css.classList.toggle("hide_css")) {
         btn_css.textContent = 'Show';
